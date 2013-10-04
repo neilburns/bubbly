@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>journ.ie - The community building tool</title>
+  <meta name="description" content="journ.ie, Community development tool, Bringing the conversation to you">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	<link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font.css" cache="false">
+	<link rel="stylesheet" href="css/journie.css">
+  <!--<link rel="stylesheet" href="css/style.css">-->
+  <link rel="stylesheet" href="css/plugin.css">
+  <link rel="stylesheet" href="css/landing.css">
+
+  <!--[if lt IE 9]>
+    <script src="js/ie/respond.min.js" cache="false"></script>
+    <script src="js/ie/html5.js" cache="false"></script>
+    <script src="js/ie/excanvas.js" cache="false"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- header -->
+  <header id="header" class="navbar">
+    <ul class="nav navbar-nav navbar-avatar pull-right">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">            
+          <span class="hidden-xs-only">Neil Burns</span>
+          <span class="thumb-small avatar inline"><img src="images/avatar.jpg" alt="Mika Sokeil" class="img-circle"></span>
+          <b class="caret hidden-xs-only"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#"><span class="badge bg-danger pull-right">3</span>Notifications</a></li>
+          <li class="divider"></li>
+          <li><a href="docs.html">Help</a></li>
+          <li><a href="signin.html">Logout</a></li>
+        </ul>
+      </li>
+    </ul>
+    <a class="navbar-brand" href="#"><img src="images/Logo.png" alt="journ.ie" /></a>
+    <button type="button" class="btn btn-link pull-left nav-toggle visible-xs" data-toggle="class:slide-nav slide-nav-left" data-target="body">
+      <i class="icon-reorder icon-xlarge text-default"></i>
+    </button>
+    <ul class="nav navbar-nav hidden-xs">
+      
+      <li>
+        <div class="m-t m-b-small" id="panel-notifications">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-comment-alt icon-xlarge text-default"></i><b class="badge badge-notes bg-danger count-n">2</b></a>
+          <section class="dropdown-menu m-l-small m-t-mini">
+            <section class="panel panel-large arrow arrow-top">
+              <header class="panel-heading bg-white"><span class="h5"><strong>You have <span class="count-n">2</span> notifications</strong></span></header>
+              <div class="list-group">
+                <a href="#" class="media list-group-item">
+                  <span class="pull-left thumb-small"><img src="images/avatar.jpg" alt="Paddy said" class="img-circle"></span>
+                  <span class="media-body block m-b-none">
+                    Paddy Cosgrave mentioned your brand<br>
+                    <small class="text-muted">23 June 13</small>
+                  </span>
+                </a>
+                <a href="#" class="media list-group-item">
+                  <span class="media-body block m-b-none">
+                    Bad sentiment content gaining traction - Twitter<br>
+                    <small class="text-muted">19 June 13</small>
+                  </span>
+                </a>
+              </div>
+              <footer class="panel-footer text-small">
+                <a href="#" class="pull-right"><i class="icon-cog"></i></a>
+                <a href="#">See all the notifications</a>
+              </footer>
+            </section>
+          </section>
+        </div>
+      </li>
+    </ul>
+
+  </header>
+  <!-- / header -->
+  <!-- nav -->
+  <nav id="nav" class="nav-primary hidden-xs nav-vertical">
+    <ul class="nav affix-top"  data-offset-top="50">
+
+      <li class="active"><a href="index.html"><i class="icon-dashboard icon-xlarge"></i><span>Dashboard</span></a></li>
+      
+      <li class="dropdown-submenu">
+        <a href="#"><i class="icon-th icon-xlarge"></i><span>Social Networks</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="buttons.html"><b class="badge pull-right">46</b>Facebook</a></li>
+          <li><a href="icons.html"><b class="badge bg-primary pull-right">30</b>Twitter</a></li>            
+          <li><a href="grid.html"><b class="badge pull-right">9</b>Linkedin</a></li>
+          <li><a href="widgets.html"><b class="badge bg-primary pull-right">8</b>Pinterest</a></li>
+          <li><a href="components.html"><b class="badge pull-right">18</b>Google+</a></li>
+
+          <li><a href="components.html"><b class="badge pull-right">10</b>Github</a></li>
+          <li><a href="components.html"><b class="badge pull-right">23</b>Vine</a></li>
+          <li><a href="components.html"><b class="badge bg-primary pull-right">17</b>Instagram</a></li>
+          <li><a href="components.html"><b class="badge pull-right">32</b>Youtube</a></li>
+          <li><a href="components.html"><b class="badge bg-primary pull-right">45</b>Foursquare</a></li>
+          <li><a href="components.html"><b class="pull-right"><i class="icon-plus"></i></b>Add more </a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown-submenu">
+        <a href="#"><i class="icon-time icon-xxlarge"></i><span>Historic 48+</span></a>
+      </li>
+
+      <li><a href="form.html"><i class="icon-heart icon-xlarge"></i><span>Brand Pages</span></a></li>
+
+      <li><a href="chart.html"><i class="icon-cogs icon-xlarge"></i><span>Brand Pages Edit</span></a></li>
+
+      <li><a href="chart.html"><i class="icon-cog icon-xlarge"></i><span>Edit</span></a></li>
+    
+    <li><a href="chart.html"><i class="icon-download icon-xlarge"></i><span>Download</span></a></li>
+     
+
+
+      <li class="dropdown-submenu">
+        <a href="#"><i class="icon-question icon-xlarge"></i><span>Help</span></a>
+      </li>
+
+    </ul>
+  </nav>
+  <!-- / nav -->
+
+  <section id="content">
+    <section class="main padder">
+      <div class="row">
+        <div class="col-lg-12">
+           <section class="panel">               
+            <header class="panel-heading bg-white">
+                  <div class="text-center h5">Central Dashboard</div><br />
+                  <div class="text-center h6"><i class="icon-time icon-large">In the last 24 hours</i></div>
+                </header>
+                  </section>
+        </div>
+        </div>
+
+
+      <div class="row">
+        <div class="col-lg-4">
+          <section class="panel">
+            <header class="panel-heading">Pie</header>
+            <div class="panel-body text-center">              
+              <div class="sparkline inline" data-type="pie" data-height="175" data-slice-colors="['#233445','#3fcf7f','#ff5f5f','#f4c414','#13c4a5']">20,15,5,40,20</div>
+              <div class="line pull-in"></div>
+              <div class="text-mini">
+                <i class="icon-circle text-info"></i> 25%
+                <i class="icon-circle text-success"></i> 15%
+                <i class="icon-circle text-danger"></i> 25%
+                <i class="icon-circle text-primary"></i> 18%
+                <i class="icon-circle text-warning"></i> 40%
+              </div>
+            </div>
+          </section>
+        </div>
+        
+
+
+
+        <div class="col-lg-4">
+          <section class="panel">
+            <header class="panel-heading">Composite</header>
+            <div class="panel-body text-center">
+              <div class="inline">
+                <div class="sparkline inline" data-type="bar" data-height="145" data-bar-width="20" data-bar-spacing="10" data-bar-color="#a3e2fe" data-composite-data="[10,8,12,13,22,15,18]" data-composite-line-color="#bfea5f" data-composite-fill-color="#f3fce3" data-highlight-line-color="#e1e5e9" data-spot-radius="3">5,15,12,18,20,17,13</div>
+                <ul class="list-inline text-muted axis"><li>M<br>5%</li><li>T<br>15%</li><li>W<br>12%</li><li>T<br>18%</li><li>F<br>20%</li><li>S<br>17%</li><li>S<br>13%</li></ul>
+              </div>
+              <div class="line pull-in"></div>
+              <div class="text-small">Check more data</div>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-lg-4">
+          <section class="panel">
+            <header class="panel-heading">Pie</header>
+            <div class="panel-body text-center">              
+              <div class="sparkline inline" data-type="pie" data-height="175" data-slice-colors="['#233445','#3fcf7f','#ff5f5f','#f4c414','#13c4a5']">20,15,5,40,20</div>
+              <div class="line pull-in"></div>
+              <div class="text-mini">
+                <i class="icon-circle text-info"></i> 25%
+                <i class="icon-circle text-success"></i> 15%
+                <i class="icon-circle text-danger"></i> 25%
+                <i class="icon-circle text-primary"></i> 18%
+                <i class="icon-circle text-warning"></i> 40%
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-lg-4">
+          <section class="panel">
+            <header class="panel-heading">
+              Conversion
+            </header>
+            <div class="panel-body text-center">
+              <h4>62.5<small> hrs</small></h4>
+              <small class="text-muted block">Updated at 2 minutes ago</small>
+              <div class="inline">
+                <div class="easypiechart" data-percent="75" data-line-width="16" data-loop="false" data-size="188">
+                  <span class="h2" style="margin-left:10px;margin-top:10px;display:inline-block">75</span>%
+                  <div class="easypie-text"><button class="btn btn-link m-t-n-small" data-toggle="class:pie"><i class="icon-play text text-muted"></i><i class="icon-pause text-active text-muted"></i></button></div>
+                </div>
+              </div>
+              <div class="line pull-in"></div>
+              <div><small>% of avarage rate of the visits</small></div>
+            </div>
+          </section>
+        </div>
+         <div class="col-lg-8">
+          <section class="panel">
+            <header class="panel-heading">
+              Stats
+            </header>
+            <div class="panel-body">
+              <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-sm btn-white active">
+                  <input type="radio" name="options" id="option1"> Day
+                </label>
+                <label class="btn btn-sm btn-white">
+                  <input type="radio" name="options" id="option2"> Week
+                </label>
+                <label class="btn btn-sm btn-white">
+                  <input type="radio" name="options" id="option2"> Month
+                </label>
+                <label class="btn btn-sm btn-white">
+                  <input type="radio" name="options" id="option2"> Year
+                </label>
+              </div>
+              <div class="line line-large pull-in"></div>
+              <div class="sparkline" data-type="line" data-resize="true" data-height="205" data-width="100%" data-line-color="#bfea5f" data-fill-color="#f3fce3" data-highlight-line-color="#e1e5e9" data-spot-radius="5" data-composite-data="[160,230,250,300,320,330,280,260,250,280,250,260,250,255,330,345,300,210,200,200,170,180,250,250,200,200,280,270,310,250,280,175]" data-composite-line-color="#a3e2fe" data-composite-fill-color="#e3f6ff" data-data="[120,250,200,325,400,380,250,320,345,250,250,250,200,325,300,365,250,210,200,180,150,160,250,250,250,200,300,310,330,250,320,205]"></div>
+              <ul class="list-inline text-muted axis"><li>12:00<br>am</li><li>2:00</li><li>4:00</li><li>6:00</li><li>8:00</li><li>10:00</li><li>12:00<br>pm</li><li>2:00</li><li>4:00</li><li>6:00</li><li>8:00</li><li>10:00</li></ul>
+            </div>
+          </section>
+        </div>     
+
+
+
+
+      </div>
+
+
+
+<!--
+          <section class="panel">
+            <div class="panel-body text-muted l-h-2x">
+              <span class="badge">3,3121</span>
+              <span class="m-r-small">Orders</span>
+              <span class="badge bg-success">25,129</span>
+              <span class="m-r-small">Selling Items</span>
+              <span class="badge">59,973</span>
+              <span class="m-r-small">Items</span>
+              <span class="badge">3,141</span> Customers
+            </div>
+          </section>
+        </div>
+        -->
+
+            <!-- Engagement -->
+
+
+
+      <div class="row">
+        <div class="col-lg-12">
+           <section class="panel">               
+            <header class="panel-heading bg-white">
+                  <div class="text-center h5">Popular conversations going on about your brand.</div>
+                </header>
+                  </section>
+        </div>
+        </div>
+
+
+      <div class="row">
+
+<!-- ENGAGEMENT HEADERS -->
+ <div class="col-lg-4">
+        <section class = "engagement">
+    <header class="panel-heading text-center bg-white"><b class="pull-left"><i class="icon-heart infill-colour-love"></i></b>Total engaged: 198 | Total: 227 </header>
+    </section> </div>
+
+     <div class="col-lg-4">
+        <section class = "engagement">
+    <header class="panel-heading text-center bg-white"><b class="pull-left"><i class="icon-question infill-colour-question"></i></b>Total engaged: 143| Total: 211 </header>
+    </section> </div>
+
+     <div class="col-lg-4">
+        <section class = "engagement">
+    <header class="panel-heading text-center bg-white"><b class="pull-left"><i class="icon-bolt infill-colour-bad"></i></b>Total engaged: 76| Total: 76 </header>
+    </section> </div>
+
+    </div>
+    
+  
+
+<div class="row">
+ <div class="col-lg-4 alert alert-success">
+          <section class="panel" id="fadeOutIn" >
+           <!-- <header class="panel-heading"><b class="pull-left"><i class="icon-heart icon-large"></i></b><b class="pull-right"><i class="icon-ok-sign icon-xlarge"><span> </span></i><i class="icon-remove-circle icon-xlarge"></i></b></header> -->
+           <header class="panel-heading"><b class="pull-left"><i class="icon-ok-sign icon-large"></i>
+           <!--<i class="icon-heart icon-xlarge"><span> </span></i>--></b>
+           <b class="pull-right"><i class=" icon-remove-circle icon-xlarge"></i></b>
+           </header>
+
+            <div class="panel-body"> 
+
+
+            <b class="pull-right"><i class="icon-twitter icon-xlarge"></i></b>   
+
+
+<!--<span class="thumb-small avatar pull-left"><img src="images/avatar.jpg" alt="Mika Sokeil" class="img-circle"></span>-->
+<p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+              <!--<div class="text-mini input-append">
+
+
+                    <textarea placeholder="Engage" rows="1" class="form-control parsley-validated" data-trigger="keyup" data-rangelength="[20,200]"></textarea>                    
+
+
+              </div>-->
+            </div>
+          </section>
+
+        </div>
+
+
+   <div class="col-lg-4 alert alert-warning">
+          <section class="panel" id="fadeOutIn-2" >
+            <header class="panel-heading">
+            <b class="pull-left"><i class="icon-ok-sign icon-large"></i>
+
+            <!--<i class="icon-question icon-xlarge"><span> </span></i>--> </b>
+
+            <b class="pull-right"><i class="icon-remove-circle icon-xlarge"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-github icon-xlarge"></i></b>   
+
+              <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+ 
+            </div>
+          </section>
+
+        </div>
+
+
+         <div class="col-lg-4 alert alert-danger">
+          <section class="panel" id="fadeOutIn-3" >
+            <header class="panel-heading">
+            <b class="pull-left"><i class="icon-ok-sign icon-xlarge"></i>
+
+           <!-- <i class="icon-bolt icon-xlarge"></i><span> </span> --></b>
+
+            <b class="pull-right"><i class="icon-remove-circle icon-xlarge"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-facebook icon-xlarge"></i></b>   
+
+              <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+              <div class="line pull-in"></div>
+<div class="input-append  text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+
+</div> <!-- End of popular section -->
+
+      <div class="row colour-break">
+        <div class="col-lg-12">
+           <section class="panel">               
+            <header class="panel-heading bg-white">
+                  <div class="text-center h5">Key Conversations to listen for: e.g. keywords relevant to your brand and business.<i class="icon-cog icon-large pull-right"></i></div>
+                </header>
+                  </section>
+        </div>
+        </div>
+
+
+
+ <div class="row">
+
+         <div class="col-lg-4 colour-break">
+          <section class="panel" id="fadeOutIn-4" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-instagram icon-xlarge"></i></b>   
+
+<p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+              <div class="line pull-in"></div>
+<div class="input-append  text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+                 <div class="col-lg-4 colour-break">
+          <section class="panel" id="fadeOutIn-5" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body "> 
+
+            <b class="pull-right"><i class="icon-linkedin-sign icon-xlarge"></i></b>   
+
+              <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+                 <div class="col-lg-4 colour-break">
+          <section class="panel" id="fadeOutIn-6" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-youtube icon-xlarge"></i></b>   
+
+              <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+</div>
+
+
+
+
+
+<!-- End of key conversations section -->
+
+      <div class="row colour-break-2">
+        <div class="col-lg-12">
+           <section class="panel ">               
+            <header class="panel-heading bg-white">
+                  <div class="text-center h5">Key influencers to listen for: e.g. Relevant industry experts and leaders.<i class="icon-cog icon-large pull-right"></i></div>
+                </header>
+                  </section>
+        </div>
+        </div>
+
+
+
+ <div class="row">
+
+         <div class="col-lg-4 colour-break-2">
+          <section class="panel" id="fadeOutIn-4" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-instagram icon-xlarge"></i></b>   
+
+                           <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+                 <div class="col-lg-4 colour-break-2">
+          <section class="panel" id="fadeOutIn-5" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-linkedin-sign icon-xlarge"></i></b>   
+
+                            <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+                 <div class="col-lg-4 colour-break-2 ">
+          <section class="panel" id="fadeOutIn-6" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-youtube icon-xlarge"></i></b>   
+
+                            <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+
+</div>
+
+<!-- End of key conversations section -->
+
+      <div class="row colour-break-3">
+        <div class="col-lg-12">
+           <section class="panel">               
+            <header class="panel-heading bg-white">
+                  <div class="text-center h5">Key Events to listen to: e.g. Relevant industry conferences, events, meetups.<i class="icon-cog icon-large pull-right"></i></div>
+                </header>
+                  </section>
+        </div>
+        </div>
+
+
+
+ <div class="row">
+
+         <div class="col-lg-4 colour-break-3">
+          <section class="panel" id="fadeOutIn-4" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-instagram icon-xlarge"></i></b>   
+
+                           <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append  text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+                 <div class="col-lg-4 colour-break-3">
+          <section class="panel" id="fadeOutIn-5" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-linkedin-sign icon-xlarge"></i></b>   
+
+                          <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+                 <div class="col-lg-4 colour-break-3">
+          <section class="panel" id="fadeOutIn-6" >
+                        <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-youtube icon-xlarge"></i></b>   
+
+                           <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+</div>
+
+
+
+
+<!-- End of key events section -->
+
+      <div class="row colour-break-4">
+        <div class="col-lg-12">
+           <section class="panel">               
+            <header class="panel-heading bg-white">
+                  <div class="text-center h5">Market leaders: Competitors to your brand.<i class="icon-cog icon-large pull-right"></i></div>
+                </header>
+                  </section>
+        </div>
+        </div>
+
+
+
+ <div class="row">
+
+         <div class="col-lg-4 colour-break-4">
+          <section class="panel" id="fadeOutIn-4" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-instagram icon-xlarge"></i></b>   
+
+                            <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append  text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+                 <div class="col-lg-4 colour-break-4">
+          <section class="panel" id="fadeOutIn-5" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-linkedin-sign icon-xlarge"></i></b>   
+
+                           <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append  text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+                 <div class="col-lg-4 colour-break-4">
+          <section class="panel" id="fadeOutIn-6" >
+            <header class="panel-heading">
+            <b class="pull-left"><!--<i class="icon-heart-empty icon-large"></i>-->
+            <i class="icon-ok-sign icon-large"></i></b>
+            <b class="pull-right"><i class="icon-remove-circle icon-large"></i></b></header>
+
+            <div class="panel-body"> 
+
+            <b class="pull-right"><i class="icon-youtube icon-xlarge"></i></b>   
+
+                          <p>User Name:</p>
+<p>Followers:</p>
+<p>Comment:</p>
+<p>Retweets:</p>
+<p>Favourites:</p>
+<p>Time stamp:</p>
+<p>Geo Tag:</p>
+<p>Klout Score:</p>
+
+
+              <div class="line pull-in"></div>
+<div class="input-append  text-center">
+<button type="submit" class="btn btn-primary">Engage
+</button>
+<button class="btn">Forward</button>
+</div>
+
+            </div>
+          </section>
+
+        </div>
+
+
+
+</div>
+
+
+
+
+<!-- End of market leaders section -->
+
+      <div class="row colour-break-5">
+        <div class="col-lg-12">
+           <section class="panel">               
+            <header class="panel-heading bg-white">
+                  <div class="text-center h5">Social network followers.<i class="icon-cog icon-large pull-right"></i></div>
+                </header>
+                  </section>
+        </div>
+        </div>
+
+
+
+ <div class="row">
+        
+         <div class="col-lg-4 colour-break-5">
+              <section class="panel text-center">
+                <div class="panel-body">
+                  <a class="btn btn-circle btn-twitter btn-lg"><i class="icon-twitter"></i></a>
+                  <div class="h4">TWITTER</div>
+                  <div class="line m-l m-r"></div>
+                  <h4 class="text-success"><strong>45321</strong></h4>
+                  <small>FOLLOWERS</small>
+                </div>
+              </section>
+            </div>
+            
+            <div class="col-lg-4 colour-break-5">
+              <section class="panel text-center">
+                <div class="panel-body">
+                  <a class="btn btn-circle btn-facebook btn-lg"><i class="icon-facebook"></i></a>
+                  <div class="h4">FACEBOOK</div>
+                  <div class="line m-l m-r"></div>
+                  <h4 class="text-info"><strong>3145</strong></h4>
+                  <small>FOLLOWERS</small>
+                </div>
+              </section>
+            </div>
+            
+             <div class="col-lg-4 colour-break-5">
+              <section class="panel text-center">
+                <div class="panel-body">
+                  <a class="btn btn-circle btn-gplus btn-lg"><i class="icon-google-plus"></i></a>
+                  <div class="h4">Google +</div>
+                  <div class="line m-l m-r"></div>
+                  <h4 class="text-info"><strong>2004</strong></h4>
+                  <small>FOLLOWERS</small>
+                </div>
+              </section>
+            </div>
+ </div>
+
+
+
+
+
+  <!--***************** content / main padder-->
+    </section>
+      </section>
+  <!--*****************-->
+
+
+
+
+
+
+  <!-- footer -->
+  <footer id="footer">
+  
+  </footer>
+  <a href="#" class="hide slide-nav-block" data-toggle="class:slide-nav slide-nav-left" data-target="body"></a>
+
+  <!-- / footer -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.js"></script>
+  <!-- app -->
+  <script src="js/app.js"></script>
+  <script src="js/app.plugin.js"></script>
+  <script src="js/app.data.js"></script>
+  <!-- Sparkline Chart -->
+  <script src="js/charts/sparkline/jquery.sparkline.min.js"></script>  
+  <!-- Easy Pie Chart -->
+  <script src="js/charts/easypiechart/jquery.easy-pie-chart.js"></script>  
+
+
+  <!-- Neil id="fadeOutIn" -->   
+<script>
+$( "#fadeOutIn" ).click(function() {
+$( "#fadeOutIn" ).fadeOut( "slow" );
+$( "#fadeOutIn" ).fadeIn( "slow" );
+});
+</script>
+
+<script>
+$( "#fadeOutIn-2" ).click(function() {
+$( "#fadeOutIn-2" ).fadeOut( "slow" );
+$( "#fadeOutIn-2" ).fadeIn( "slow" );
+});
+</script>
+
+<script>
+$( "#fadeOutIn-3" ).click(function() {
+$( "#fadeOutIn-3" ).fadeOut( "slow" );
+$( "#fadeOutIn-3" ).fadeIn( "slow" );
+});
+</script>
+
+<script>
+$( "#fadeOutIn-4" ).click(function() {
+$( "#fadeOutIn-4" ).fadeOut( "slow" );
+$( "#fadeOutIn-4" ).fadeIn( "slow" );
+});
+</script>
+
+<script>
+$( "#fadeOutIn-5" ).click(function() {
+$( "#fadeOutIn-5" ).fadeOut( "slow" );
+$( "#fadeOutIn-5" ).fadeIn( "slow" );
+});
+</script>
+
+<script>
+$( "#fadeOutIn-6" ).click(function() {
+$( "#fadeOutIn-6" ).fadeOut( "slow" );
+$( "#fadeOutIn-6" ).fadeIn( "slow" );
+});
+</script>
+
+
+</body>
+</html>
